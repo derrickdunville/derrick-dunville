@@ -9,4 +9,5 @@
 echo starting server
 cd /var/www/
 sudo npm run build
-sudo nohup npm run server &
+# sudo nohup npm run server &
+sudo pm2 start npm -- run production
