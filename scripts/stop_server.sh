@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #sudo pm2 stop node-app
 
 # isExistApp=`sudo pgrep pm2`
