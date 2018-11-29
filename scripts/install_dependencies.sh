@@ -23,4 +23,4 @@ fi
 
 echo install application with npm
 cd /var/www/
-npm install
+sudo npm install
