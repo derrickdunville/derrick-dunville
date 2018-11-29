@@ -19,3 +19,12 @@ hooks:
     - location: scripts/validate_server.sh
       timeout: 300
       runas: root
+
+#ec2 setup #https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
+# apt-get update
+# apt-get install ruby2.0
+# apt-get install wget
+# cd /home/ubunutu
+# wget https://aws-codedeploy-us-east-2.s3.amazonaws.com/latest/install
+# chmod +x ./install
+# sudo ./install auto
