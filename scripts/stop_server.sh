@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pm2 stop node-app
+#sudo pm2 stop node-app
 
 # isExistApp=`sudo pgrep pm2`
 # if [[ -n  $isExistApp ]]; then
@@ -14,3 +14,5 @@ sudo pm2 stop node-app
 #     echo 'yo'
 #     # you can remove the crontab as well
 # fi
+
+echo stop server
