@@ -1,15 +1,16 @@
+version: 0.2
+
 phases:
   install:
     commands:
-      - echo install.
-      - npm install
+      - echo install packages here.
   pre_build:
     commands:
-      - echo pre build...
+      - echo pre build maybe install dependencies here...
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code
+      - echo might use this to run mocha
   post_build:
     commands:
       - echo Build completed on `date`
