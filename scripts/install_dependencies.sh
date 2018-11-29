@@ -9,7 +9,9 @@
 # install pm2 to restart node app
 #npm i -g pm2@2.4.3
 echo installing dependencies
-sudo apt-get -y install nodejs
+sudo apt-get update
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install nodejs -y
 sudo apt-get -y install npm
 
 echo checking for nodejs symlink
