@@ -11,3 +11,14 @@
 echo installing dependencies
 sudo apt-get -y install nodejs
 sudo apt-get -y install npm
+
+echo checking for nodejs symlink
+file="/usr/bin/node"
+if [ -f $file ] && [ ! -L $file ] ; then
+  echo "$file exists and is not a symlink"
+  sudo ln -s /usr/bin/nodejs
+else
+  echo "$file exists and is already a symlink"
+
+echo install application with npm
+npm install
