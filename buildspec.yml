@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo install packages here.
+      - npm install
   pre_build:
     commands:
       - echo pre build maybe install dependencies here...
@@ -14,3 +15,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+artifacts:
+   files:
+     - '**/*'
