@@ -8,4 +8,7 @@
 #yum install -y nodejs
 # install pm2 to restart node app
 #npm i -g pm2@2.4.3
-echo install dependencies
+echo installing dependencies
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo ln -s /usr/bin/nodejs /usr/bin/node
