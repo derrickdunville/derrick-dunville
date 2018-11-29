@@ -19,6 +19,7 @@ if [ -f $file ] && [ ! -L $file ] ; then
   sudo ln -s /usr/bin/nodejs
 else
   echo "$file exists and is already a symlink"
+fi
 
 echo install application with npm
 npm install
