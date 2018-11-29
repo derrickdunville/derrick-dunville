@@ -8,4 +8,5 @@
 #sudo pm2 start /var/www/server.js -i 0 --name "node-app"
 echo starting server
 cd /var/www/
-sudo npm run server
+sudo npm run build
+sudo nohup npm run server &
