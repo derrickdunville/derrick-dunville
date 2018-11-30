@@ -1,19 +1,5 @@
 #!/bin/bash
 
-#sudo pm2 stop node-app
-
-# isExistApp=`sudo pgrep pm2`
-# if [[ -n  $isExistApp ]]; then
-    # sudo pm2 kill
-    # sudo pm2 stop node-app
-    # you can remove the crontab as well
-# fi
-
-# isExistApp=`pgrep pm2`
-# if [[ -n  $isExistApp ]]; then
-#     # sudo pm2 kill
-#     echo 'yo'
-#     # you can remove the crontab as well
-# fi
-
-echo stop server
+# simply stop the application process using pm2
+echo stopping server
+sudo pm2 stop derrick-dunville-app
