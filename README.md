@@ -74,5 +74,11 @@ sudo ./install auto
 ## Tools
 This project works with ReduxDevtool extension for chrome. [Read more](https://github.com/zalmoxisus/redux-devtools-extension)
 
+### Trello
+This project is integrated with Trello.
+```
+https://trello.com/b/WjemkqFB/derrick-dunville
+```
+
 ## License
 MIT

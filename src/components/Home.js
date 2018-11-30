@@ -21,7 +21,7 @@ class Home extends Component {
         <NavBar/>
         <header style={{display: 'flex', justifyContent: 'center', flexGrow: '0', order: '0'}}>
           <div style={{justifyContent: 'center'}}>
-            React-Redux-React Router-Webpack Biolerplate
+
           </div>
         </header>
         <main style={{display: 'flex', justifyContent: 'center'}}>

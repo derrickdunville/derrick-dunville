@@ -21,7 +21,7 @@ class NavBar extends Component {
         <Navbar.Header >
           <Navbar.Brand>
               <IndexLinkContainer to='/'>
-                <NavItem>Brand Image</NavItem>
+                <NavItem>Derrick Dunville</NavItem>
               </IndexLinkContainer>
           </Navbar.Brand>
           <Navbar.Toggle />
