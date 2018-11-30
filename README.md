@@ -48,6 +48,28 @@ This is also good to run on your local computer to ensure, that your application
 
 Heroku works out of the box, just use "deploy to heroku" button
 
+## AWS CodeDeploy
+
+This project is configured to work with AWS CodeDeploy and CodePipeline for continuous integration and delivery
+
+`buildspec.yml` - needed for AWS CodeBuild to know how to build to project.
+`appspec.yml` - needed for AWS CodeDeploy to know how to deploy the build to the server and run it.
+
+### EC2 Instance Config
+
+The EC2 Instance needs to have an IAM role with EC2 and S3 policies, and also needs to have codedeploy-agent installed.
+
+https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
+
+```
+apt-get update
+apt-get install ruby2.0
+apt-get install wget
+cd /home/ubunutu
+wget https://aws-codedeploy-us-east-2.s3.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto
+```
 
 ## Tools
 This project works with ReduxDevtool extension for chrome. [Read more](https://github.com/zalmoxisus/redux-devtools-extension)
