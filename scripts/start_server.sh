@@ -8,4 +8,4 @@ sudo npm run build
 
 # start the application with pm2
 echo starting application...
-sudo pm2 start npm -- name "derrick-dunville-app" -- run production
+sudo pm2 start npm -- run production
