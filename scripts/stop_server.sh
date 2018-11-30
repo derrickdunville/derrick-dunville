@@ -2,4 +2,4 @@
 
 # simply stop the application process using pm2
 echo stopping server
-sudo pm2 stop derrick-dunville-app
+sudo pm2 stop all
