@@ -6,3 +6,4 @@ dist
 
 # Ignore logs
 npm-debug.log
+package-lock.json
