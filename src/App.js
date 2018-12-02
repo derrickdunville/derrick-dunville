@@ -25,10 +25,7 @@ export class App extends Component {
   render() {
     return (
       <Router>
-        <div style={{
-            width: `${this.props.environment.screenWidth}px`,
-            height: `${this.props.environment.screenHeight}px`
-          }}>
+        <div>
           <Route exact path="/" component={Home} />
           <ModalContainer
             outDelay={250}

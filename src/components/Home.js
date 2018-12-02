@@ -5,6 +5,9 @@ import { Input, Button } from 'react-bootstrap'
 import NavBar from './NavBar'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import Resume from './resume/Resume'
+import Contact from './Contact'
+import background_image from "../assets/detroit_bw.png"
 
 class Home extends Component {
 
@@ -15,18 +18,18 @@ class Home extends Component {
   }
 
   render() {
-    const {screenWidth} = this.props;
+    const {screenWidth, screenHeight} = this.props;
     return (
       <div>
-        <NavBar/>
-        <header style={{display: 'flex', justifyContent: 'center', flexGrow: '0', order: '0'}}>
-          <div style={{justifyContent: 'center'}}>
-            Lorem ipsum
+        <div className="img_container" style={{height: `${screenHeight}px`}}>
+          <img src={background_image}/>
+          <div className="centered">
+            <h1>DERRICK DUNVILLE</h1>
+            <h4>Software Engineer</h4>
           </div>
-        </header>
-        <main style={{display: 'flex', justifyContent: 'center'}}>
-
-        </main>
+          </div>
+        <Resume />
+        <Contact />
       </div>
     );
   }
@@ -34,7 +37,8 @@ class Home extends Component {
 
 function mapStateToProps(state) {
   return {
-      screenWidth: state.environment.screenWidth
+      screenWidth: state.environment.screenWidth,
+      screenHeight: state.environment.screenHeight
   }
 }
 
