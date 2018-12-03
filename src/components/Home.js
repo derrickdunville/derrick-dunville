@@ -27,7 +27,7 @@ class Home extends Component {
             <h1>DERRICK DUNVILLE</h1>
             <h4>Software Engineer</h4>
           </div>
-          </div>
+        </div>
         <Resume />
         <Contact />
       </div>
