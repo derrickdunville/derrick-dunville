@@ -24,8 +24,8 @@ class Resume extends Component {
       <div className="app_container">
         <About />
         <Skills />
-        <Education />
         <Experience />
+        <Education />
         <Interests/>
       </div>
     );

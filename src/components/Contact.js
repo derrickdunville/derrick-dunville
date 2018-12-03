@@ -62,7 +62,7 @@ class Contact extends Component {
     const {screenWidth} = this.props;
     return (
       <section>
-        <h4>Contact</h4>
+        <h2>Contact</h2>
         <div>
           <Form onSubmit={() => { captcha.execute() }} >
             <FormGroup controlId="nameInput">

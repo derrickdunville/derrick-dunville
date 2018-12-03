@@ -26,7 +26,7 @@ class Skill extends Component {
             <img src={this.state.img}/>
           </div>
           <div className="interest__title">
-            <h5>{this.state.title}</h5>
+            <h4>{this.state.title}</h4>
           </div>
         </div>
       </div>

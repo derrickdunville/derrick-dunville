@@ -23,7 +23,7 @@ class Skills extends Component {
     const {screenWidth} = this.props;
     return (
       <section>
-        <h4>Skills</h4>
+        <h2>Skills</h2>
         <div className="interests">
           <Skill title="Java" img={java_logo}/>
           <Skill title="C++" img={cplusplus_logo} />

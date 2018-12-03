@@ -19,10 +19,10 @@ class About extends Component {
     const {screenWidth} = this.props;
     return (
       <section className="about">
-        <h4>About</h4>
+        <h2>About</h2>
         <div className="about">
           <div className="about__content">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Creative and motivated individual, with five years of object-oriented programming experience, seeking a Software Engineering position focusing on the development and improvement of user applications and the end-user experience.</p>
           </div>
           <div className="about__img">
             <img src={derrick}/>

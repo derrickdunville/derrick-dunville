@@ -8,7 +8,27 @@ body{
   overflow: visible !important;
 }
 p, h1, h2, h3, h4, h5, label, div{
-  color: white;
+font-family: 'Quicksand', sans-serif;
+  color: #F9F9F9;
+}
+p {
+  font-size: 18px;
+}
+h2 {
+  font-weight: bold;
+}
+h3 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+h4 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
 }
 section {
   margin: 15px;
@@ -17,8 +37,7 @@ section {
 -moz-box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.75);
 box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.75);
 }
-section > h4 {
-  font-size: 24px;
+section > h2 {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -58,16 +77,25 @@ box-shadow: 0px 0px 13px 2px rgba(107,107,107,1);
 }
 .img_container {
   overflow-x: hidden;
+  overflow-y: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
-  text-align: center;
   color: white;
+}
+.img_container > img {
+  min-height: 1000px;
 }
 .img_container >.centered > h4 {
   padding: 0px !important;
 }
 
+.divider {
+  height: 1px;
+  margin: 10px 5px 10px 5px;
+  background: gray;
+}
 /*  For screen size with width < 600px*/
 @media only screen and (max-width: 600px){
 }
@@ -83,10 +111,7 @@ box-shadow: 0px 0px 13px 2px rgba(107,107,107,1);
   }
 }
 .about__content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 .about__img > img{
@@ -114,35 +139,47 @@ box-shadow: 0px 0px 13px 2px rgba(107,107,107,1);
 .interest__title  {
   text-align: center;
 }
-
-.interests,
-.education,
-.experience,
-.institution {
+.interests {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
+.institution {
+  display: flex;
+  flex-wrap: wrap;
+}
+.institution__image {
+  width: 30%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.institution__info{
+  width:70%;
+  padding-left: 15px;
+}
 .institution__image > img{
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
 }
-.institution__info {
-  padding: 10px;
-  text-align: center;
+.institution__details {
+  margin-top: 10px;
 }
-.institution__info_name {
-  font-size: 20px;
-}
-.institution__info_line {
-  font-size: 16px;
+.projects {
+  margin-top: 10px;
 }
 
 /* Centered text */
 .centered {
   position: absolute;
+  padding-left: 15px;
   top: 50%;
   left: 50%;
+  min-width: 100%;
+  max-height: 100%;
   transform: translate(-50%, -50%);
 }
