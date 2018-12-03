@@ -53,14 +53,14 @@ box-shadow: 0px 0px 13px 2px rgba(107,107,107,1);
   background-color: #7b7b7b;
   border: none;
 }
-.img_container {
+/* .img_container {
   overflow-x: hidden;
   display: flex;
   justify-content: center;
   position: relative;
   text-align: center;
   color: white;
-}
+} */
 .img_container >.centered > h4 {
   padding: 0px !important;
 }
