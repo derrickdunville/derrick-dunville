@@ -41,6 +41,7 @@ class Education extends Component {
               </div>
             </div>
             <div className="projects">
+              <div><h3>Projects</h3></div>
               <div>
                 <h4>TL/UB and Product Version Maintenance</h4>
                 <h4>3 months</h4>

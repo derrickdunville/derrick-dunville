@@ -29,13 +29,13 @@ class Education extends Component {
           </div>
           <div className="institution__info">
             <div className="institution__info_line">
-              <h4>B.S. Computer Science</h4>
+              <p>B.S. Computer Science</p>
             </div>
             <div className="institution__info_line">
-              <h4>B.S. Psychology</h4>
+              <p>B.S. Psychology</p>
             </div>
             <div className="institution__info_line">
-              <h4>2010-2015</h4>
+              <p>2010-2015</p>
             </div>
           </div>
         </div>
@@ -48,10 +48,10 @@ class Education extends Component {
           </div>
           <div className="institution__info">
             <div className="institution__info_line">
-              <h4>B.S. Psychology</h4>
+              <p>B.S. Psychology</p>
             </div>
             <div className="institution__info_line">
-              <h4>2008-2010</h4>
+              <p>2008-2010</p>
             </div>
           </div>
         </div>
