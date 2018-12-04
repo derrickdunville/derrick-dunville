@@ -5,4 +5,10 @@
 echo stopping server
 sudo su
 pm2 stop npm
+if [ $? -eq 1]
+then
+  echo application not running
+else
+  echo application stopped
+fi
 exit
