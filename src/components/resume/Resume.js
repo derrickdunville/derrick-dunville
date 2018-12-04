@@ -9,6 +9,7 @@ import Skills from './Skills'
 import Interests from './Interests'
 import Education from './Education'
 import Experience from './Experience'
+import Contact from '../Contact'
 
 class Resume extends Component {
 
@@ -22,11 +23,16 @@ class Resume extends Component {
     const {screenWidth} = this.props;
     return (
       <div className="app_container">
-        <About />
-        <Skills />
-        <Experience />
-        <Education />
-        <Interests/>
+        <div className="left">
+          <About />
+          <Skills />
+        </div>
+        <div className="right">
+          <Experience />
+          <Education />
+          <Interests/>
+          <Contact />
+        </div>
       </div>
     );
   }

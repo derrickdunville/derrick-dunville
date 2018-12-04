@@ -24,15 +24,17 @@ class Education extends Component {
             <div className="institution__image">
               <img src={thomson_reuters_logo}/>
             </div>
-            <div className="institution__info">
-              <div className="institution__info_name">
-                <h3>Thomson Reuters Tax & Accounting</h3>
-              </div>
-              <div className="institution___info_line">
-                <h4>Software Engineer</h4>
-              </div>
-              <div className="institution__info_line">
-                <h4>2015-2017</h4>
+            <div className="institution__info_container">
+              <div className="institution__info">
+                <div className="institution__info_name">
+                  <h3>Thomson Reuters Tax & Accounting</h3>
+                </div>
+                <div className="institution___info_line">
+                  <h4>Software Engineer</h4>
+                </div>
+                <div className="institution__info_line">
+                  <h4>2015-2017</h4>
+                </div>
               </div>
             </div>
             <div className="institution__details">

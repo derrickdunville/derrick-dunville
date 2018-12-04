@@ -18,7 +18,7 @@ class About extends Component {
   render() {
     const {screenWidth} = this.props;
     return (
-      <section className="about">
+      <section>
         <h2>About</h2>
         <div className="about">
           <div className="about__content">

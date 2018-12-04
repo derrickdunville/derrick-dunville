@@ -6,7 +6,6 @@ import NavBar from './NavBar'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import Resume from './resume/Resume'
-import Contact from './Contact'
 import background_image from "../assets/detroit_bw.png"
 
 class Home extends Component {
@@ -29,7 +28,7 @@ class Home extends Component {
           </div>
         </div>
         <Resume />
-        <Contact />
+
       </div>
     );
   }
