@@ -21,13 +21,13 @@ class Education extends Component {
       <section>
         <h2>Education</h2>
         <div className="institution">
+          <div className="institution__name">
+            <h3>Michigan State University</h3>
+          </div>
           <div className="institution__image">
             <img src={msu_logo}/>
           </div>
           <div className="institution__info">
-            <div className="institution__info_name">
-              <h3>Michigan State University</h3>
-            </div>
             <div className="institution__info_line">
               <h4>B.S. Computer Science</h4>
             </div>
@@ -40,13 +40,13 @@ class Education extends Component {
           </div>
         </div>
         <div className="institution">
+          <div className="institution__name">
+            <h3>Central Michigan University</h3>
+          </div>
           <div className="institution__image">
             <img src={cmu_logo}/>
           </div>
           <div className="institution__info">
-            <div className="institution__info_name">
-              <h3>Central Michigan University</h3>
-            </div>
             <div className="institution__info_line">
               <h4>B.S. Psychology</h4>
             </div>
