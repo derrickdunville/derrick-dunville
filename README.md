@@ -1,4 +1,4 @@
-# React-Redux-React Router Boilerplate
+# Derrick Dunville - Personal Website
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -34,7 +34,6 @@ To test your application, run
 
 * `npm run test` - single run - good for CI or precook
 * `npm run test:watch` - watches for changes, good for development
-
 
 ## Production
 
@@ -79,6 +78,8 @@ This project is integrated with Trello.
 ```
 https://trello.com/b/WjemkqFB/derrick-dunville
 ```
+## Credit
+Props to werein for this repo https://github.com/werein/react which was a tremendous help in getting me started.
 
 ## License
 MIT
