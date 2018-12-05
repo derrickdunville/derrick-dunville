@@ -1,13 +1,15 @@
 {
-  "name": "react",
-  "description": "A React app using Express",
+  "name": "derrick-DUNVILLE",
+  "description": "A personal portfolio webpage for Derrick Dunville using Express, React, and Redux",
   "keywords": [
     "node",
     "react",
-    "express"
+    "express",
+    "redux",
+    "codedeploy"
   ],
-  "website": "https://www.ascendtrading.net",
-  "repository": "https://github.com/werein/react",
+  "website": "https://www.derrickdunville.com",
+  "repository": "https://github.com/derrickdunville/derrick-dunville/",
   "success_url": "/",
   "env": {
     "PORT": {
