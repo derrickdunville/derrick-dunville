@@ -31,7 +31,6 @@ class Resume extends Component {
           <Experience />
           <Education />
           <Interests/>
-          <Contact />
         </div>
       </div>
     );

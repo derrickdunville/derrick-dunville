@@ -6,6 +6,7 @@ import NavBar from './NavBar'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import Resume from './resume/Resume'
+import Contact from './Contact'
 import background_image from "../assets/detroit_bw.png"
 
 class Home extends Component {
@@ -24,11 +25,20 @@ class Home extends Component {
           <img src={background_image}/>
           <div className="centered">
             <h1>DERRICK DUNVILLE</h1>
+            <h4>derrickdunville@gmail.com</h4>
             <h4>Software Engineer</h4>
+            <h4>Detroit, MI</h4>
+            <div className="social">
+              <a href="https://www.github.com/derrickdunville">
+                <img alt="Github" src={"https://img.icons8.com/ios/96/F9F9F9/github-filled.png"}/>
+              </a>
+              <a href="https://www.linkedin.com/in/dunville/">
+                <img src="https://img.icons8.com/ios/96/F9F9F9/linkedin-filled.png"/>
+              </a>
+            </div>
           </div>
         </div>
         <Resume />
-
       </div>
     );
   }
