@@ -54,11 +54,11 @@ This project is configured to work with AWS CodeDeploy and CodePipeline for cont
 `buildspec.yml` - needed for AWS CodeBuild to know how to build to project.
 `appspec.yml` - needed for AWS CodeDeploy to know how to deploy the build to the server and run it.
 
-### Master
+### Master Branch - Production
 
 Pushing to the master branch will automatically trigger CodeDeploy to run a production build.
 
-### Beta
+### Beta Branch - Beta
 
 Pushing to the beta branch will automatically trigger CodeDeploy to run a beta build.
 
