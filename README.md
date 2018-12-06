@@ -43,7 +43,7 @@ Included Express server is preconfigured to serve `/dist` folder. All you need t
 
 This is also good to run on your local computer to ensure, that your application is running as it should.
 
-### Heroku
+## Heroku
 
 Heroku works out of the box, just use "deploy to heroku" button
 
@@ -54,8 +54,15 @@ This project is configured to work with AWS CodeDeploy and CodePipeline for cont
 `buildspec.yml` - needed for AWS CodeBuild to know how to build to project.
 `appspec.yml` - needed for AWS CodeDeploy to know how to deploy the build to the server and run it.
 
-### EC2 Instance Config
+### Master
 
+Pushing to the master branch will automatically trigger CodeDeploy to run a production build.
+
+### Beta
+
+Pushing to the beta branch will automatically trigger CodeDeploy to run a beta build.
+
+### EC2 Instance Config
 The EC2 Instance needs to have an IAM role with EC2 and S3 policies, and also needs to have codedeploy-agent installed.
 
 https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
